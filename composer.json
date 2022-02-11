@@ -1,0 +1,15 @@
+{
+    "require": {
+        "smarty/smarty-lexer": "3.1.18",
+        "phpmailer/phpmailer": "^6.5",
+        "smarty/smarty": "^4.1"
+    },
+
+    "config": {
+        "vendor-dir" : "lib/"
+    },
+    
+    "autoload": {
+        "classmap": ["model/"]
+    }
+}
